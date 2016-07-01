@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AnagramsActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Modes"
+        android:orderInCategory="100"
+        app:showAsAction="never" >
+
+        <menu>
+            <item
+                android:id="@+id/menu_easy"
+                android:title="Falcon"
+                />
+            <item
+                android:id="@+id/menu_medium"
+                android:title="Hawk"
+                />
+            <item
+                android:id="@+id/menu_hard"
+                android:title="Eagle"
+                />
+        </menu>
+
+    </item>
+</menu>
